@@ -1,0 +1,47 @@
+html{
+    margin: 0;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6rem;
+    margin: 0;
+    height: 500rem;
+}
+
+.tree{
+  display: flex;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  pointer-events: none;
+}
+
+.car{
+  width: 50%;
+  background: linear-gradient(to bottom, cornflowerblue, lightblue);
+  height: 180rem;
+}
+
+.street{
+  width: 50%;
+  background: linear-gradient(to bottom, red, pink);
+  height: 500rem;
+}
+
+.squirrel {
+  display: flex;
+  position: fixed;
+}
+
+.block{
+  width: 100vw;
+  height: 100vh;
+  background-color: goldenrod;
+}
+
+.hidden {
+  display: none;
+}
